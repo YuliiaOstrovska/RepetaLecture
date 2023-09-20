@@ -15,12 +15,13 @@
     <header>
       <!-- тег nav огортаємо лише навігацію по сайту. все з тегом a. якщо Log in та Register кнопки - то вони не огортаються в nav  -->
       <nav>
-        <a href="/"><img src="./img/logo.svg" alt="logo" />photo</a>
+        <a href="./index.html"><img src="./img/logo.svg" alt="logo" />photo</a>
         <ul>
           <li><a href="">Features</a></li>
           <li><a href="">Pricing</a></li>
           <li><a href="">Community</a></li>
           <li><a href="./support.html">Support</a></li>
+          <li><a href="./wireframes.html">Wireframes</a></li>
         </ul>
         <ul>
           <li><a href="">Log in</a></li>
@@ -28,7 +29,16 @@
         </ul>
       </nav>
     </header>
-
+    <!-- Вставляємо відео з Ютюб. Під відео наживаємо кнопку Share. потім "вставити <>" копіюємо код і вставляємо собі в HTML -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/mIYoasoNa5M?si=3HjW6VI-WIKYDlgG"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
     <main>
       <!-- Герой -->
       <section>
@@ -90,7 +100,7 @@
         <h2>Примери работ</h2>
         <ul>
           <li>
-            <img src="./img/Rectangle.jpg" alt="" width="750" />
+            <img src="./img/rectangle.jpg" alt="Example1" width="750" />
             <!-- як правило для фото задають ширину картинки, а висоту браузер розрахує самостійно -->
             <h3>Sed ut perspiciatis unde omnis</h3>
             <p>
@@ -100,7 +110,7 @@
             </p>
           </li>
           <li>
-            <img src="./img/Rectangle.jpg" alt="" width="750" />
+            <img src="./img/rectangle.jpg" alt="Example2" width="750" />
             <!-- як правило для фото задають ширину картинки, а висоту браузер розрахує самостійно -->
             <h3>Sed ut perspiciatis unde omnis</h3>
             <p>
@@ -121,53 +131,172 @@
         <ul>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial2" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial3" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial4" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial5" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial6" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial7" width="76" />
             </a>
           </li>
           <li>
             <a href="">
-              <img src="./img/Testimonial.jpg" alt="" width="76" />
+              <img src="./img/testimonial.jpg" alt="Testimonial8" width="76" />
             </a>
           </li>
         </ul>
       </section>
-      <!-- SingUp -->
+      <!-- SignUp -->
       <section>
-        <h2>SingUp</h2>
+        <h2 hidden>SignUp</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </p>
+        <div>
+          <a href="Join Today"></a>
+          <a href="">Contact us</a>
+        </div>
       </section>
+      <!-- Варіант розмітки секції 2 -->
+      <section>
+        <h2>Snap photos and share like never before</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <ul>
+            <li>
+                <h3>Sed ut perspiciatis</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </li>
+            <li>
+                <h3>Nemo enim ipsam</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </li>
+        </ul>
+        <img src="" alt="">
+      </section>
+      <!-- Варіант розмітки секції 3 -->
+      <section>
+        <h2>Snap photos and share like never before</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+        <ul>
+            <li>
+                <img src="./img/rectangle_1.jpg" alt="квадрат" width="686" height="400">
+                <h3>Sed ut perspiciatis</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </li>
+            <li>
+                <img src="./img/rectangle_1.jpg" alt="квадрат" width="686" height="400">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+            </li>
+        </ul>
+      </section>
+    <!-- Варіант розмітки секції 4 -->
+    <section>
+        <h2>You’re in good company</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+        <ul>
+            <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./img/testimonial.jpg" alt="Testimonial1" width="76" />
+            </a>
+          </li>
+        </ul>
+
+        <div>
+            <img src="./img/rectangle_1.jpg" alt="" width="400">
+            <h3>Sed ut perspiciatis unde omnis</h3>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+
+        </div>
+    </section>
+      
     </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <ul>
+        <li><a href="">Mobile app</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Company</a></li>
+      </ul>
+
+      <a href="./index.html"><img src="./img/logo.svg" alt="logo" />photo</a>
+
+      <ul>
+        <li><a href="">Help desk</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Resources</a></li>
+      </ul>
+<!-- якщо на макеті є лише іконка без назви що це, але браузеру/читалці потрібно знати що це, то використовуємо атрибут aria-label="Facebook", де вказуємо назву соцсеті -->
+      <ul>
+        <li><a href="" aria-label="Facebook"></a></li>
+        <li><a href="" aria-label="Twitter"></a></li>
+        <li><a href="" aria-label="Instagram"></a></li>
+        <li><a href="" aria-label="LinkedIn"></a></li>
+        
+        <!-- <ul>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+      </ul> -->
+      <p>&#169;Photo, Inc. 2019. We love our users!</p>
+
+    </footer>
   </body>
 </html>
